@@ -1,7 +1,1 @@
-echo "# cowboy-e-bike" >> README.md
-  git init
-  git add README.md
-  git commit -m "first commit"
-  git branch -M main
-  git remote add origin https://github.com/surajbhan-3/cowboy-e-bike.git
-  git push -u origin main# cowboy-e-bike
+# Convert a figma design into live code using react
