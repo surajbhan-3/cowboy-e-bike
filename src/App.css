@@ -1,0 +1,550 @@
+
+.App{
+  /* border: 1px solid black; */
+  height: 98vh;
+  width: 98.9vw;
+ 
+
+}
+.navbar{
+  /* border: 1px solid rebeccapurple; */
+  height: 5vh;
+  width: 100vw;
+  /* background-color: red; */
+  /* margin-top: -20px; */
+  padding-top: 5vh;
+  position: fixed;
+ color: white;
+ font-weight: bold;
+ z-index: 2;
+
+}
+.navbar-wrapper{
+  /* border: 1px solid yellowgreen; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  width: 90vw;
+  margin: auto;
+
+  /* margin-top: 2.5vh; */
+
+
+
+}
+.navbar-wrapper>div{
+  /* border: 1px solid red; */
+
+
+}
+.logo{
+  width: 28%;
+}
+.item-list{
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+
+}
+.middle-sign{
+  /* border: 1px solid red; */
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.middle-sign .inn-div div{
+  /* border: 1px solid purple; */
+  height: 5px;
+  width: 40px;
+  background-color: white;
+  margin-top: 5px;
+}
+
+.left-div{
+  background: radial-gradient(circle at bottom left, #ff3965 10%, #141617 57%);
+ z-index: 1;
+}
+.main-div{
+  /* border: 1px solid green; */
+  height: 100vh;
+  display: flex;
+
+
+}
+.main-div>div{
+  /* border: 1px solid red; */
+  width: 50vw;
+  height: 100vh;
+
+  
+}
+.left-div{
+  background-color: #141617;
+
+}
+
+.right-div{
+  background-color:#1e1e1e;
+
+}
+.right-div img{
+  width: 100%;
+  height: 100%;
+  rotate: left;
+  transform: scaleX(-1);
+  object-fit: contain;
+  margin-left: -279px;
+  
+
+}
+
+.play-div{
+  background-color:#1e1e1e;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  position: fixed;
+  top: 49vh;
+  left: 46.5vw;
+  z-index: 2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: rgba(27, 27, 27, 0.6) 0px 5px 15px;
+  
+  
+}
+
+:hover.play-div{
+
+  box-shadow: rgba(54, 54, 54, 0.6) 0px 5px 23px;
+
+ 
+}
+.play-div img{
+  width: 50%;
+  height: 50%;
+  margin-left: 7px;
+
+}
+
+
+.top-div{
+  /* border: 1px solid white; */
+  height: 50%;
+  width: 60%;
+  margin: auto;
+  margin-top: 20%;
+  color: white;
+
+}
+.bottom-div{
+  height: 30%;
+  /* border: 1px solid white; */
+}
+#cowboy-text{
+  color: #ff3965;
+  font-size: 34px;
+}
+#take{
+  font-size: 60px;
+}
+#ease{
+  display: inline;
+}
+.content>p{
+  font-weight: bold;
+}
+#ease{
+  font-weight: 100;
+  color: grey;
+}
+
+.btn-1{
+  padding: 10px 20px 10px 20px;
+  font-size: 14px;
+  border-radius: 6px;
+  margin-top: 40px;
+  border: 0px;
+  outline: none;
+  background-color: #ff3965;
+  color: white;
+  font-weight: bold;
+
+}
+.btn-2{
+background-color:  transparent;
+  font-size: 14px;
+  color: white;
+  border: 0px;
+  outline: none;
+  font-weight: bold;
+
+
+}
+
+.bottom-div{
+  display: flex;
+
+}
+.bottom-div >div{
+   /* border: 1px solid red; */
+
+}
+.image-div{
+  width: 40%;
+
+}
+.image-div img{
+  width: 150%;
+  height: 100%;
+  object-fit: contain;
+  margin-left: -170px;
+}
+.image-text{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+.i-text{
+  width: 100px;
+  height: 50px;
+  margin-top: 140px;
+}
+.i-text img{
+  width: 100%;
+  height: 100%;
+}
+.review-div{
+  position: absolute;
+  top: 20vh;
+  left: 80vw;
+  z-index: 4;
+  height: 100px;
+  width: 200px;
+  background-color: #b81437;
+  border-radius: 6px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+.inner-review{
+  margin-top: 20px;
+  padding-left: 30px;
+}
+.symbol{
+  width: 150px;
+  height: 20px;
+  left: 10px;
+  position: relative;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+.inner-review p{
+  margin-top: 8px;
+}
+.symbol div{
+  width: inherit;
+  height: inherit;
+}
+.symbol img{
+  position: relative;
+  left: 18vw;
+  width: 100%;
+  height: 100%;
+}
+.stat-div{
+  position: absolute;
+  width: 30vw;
+  /* border: 1px solid white; */
+  top: 82vh;
+  left: 60vw;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+
+
+}
+.stat-div p{
+   margin-top: -10px;
+   font-size: 12px;
+}
+
+/* *Targeting 1920px */
+@media all and (min-width:1800px) and (max-width:2000px) {
+  
+
+   .play-div{
+    left: 47vw;
+   }
+    .image-div img{
+      margin-left: -200px;
+    }      
+    .i-text{
+      margin-top: 210px;
+    }
+    .right-div img{
+      margin-left: -400px;
+    }
+    .review-div{
+      left: 85vw;
+      top: 22vh;
+    }
+    .symbol img{
+      left: 20vw;
+    }
+   .stat-div{
+    margin-top: 20px;
+    width: 35vw;
+    left: 55vw;
+   }
+           
+}
+
+
+@media all and (min-width:320px) and (max-width:410px) {
+
+   .play-div{
+    height: 40px;
+    width: 40px;
+    left: 44vw;
+   }
+   .navbar-wrapper{
+    font-size: 7px;
+    margin-top: -10px;
+
+   }
+   .logo{
+    width: 20%;
+   }
+   .logo img{
+    width: 100%;
+    height: 100%;
+   }
+   .item-list{
+     justify-content: space-around;
+     width: 40%;
+   }
+   .middle-sign{
+     margin-left: 60px;
+     width: 20px;
+     height: 20px;
+   }
+   .middle-sign .inn-div div{
+    width: 20px;
+    height: 2px;
+   }
+   .top-div{
+    margin-top: 100px;
+    width: 79%;
+    height: 40%;
+
+   }
+
+    #take{
+      font-size: 18px;
+
+    }
+        #cowboy-text{
+          font-size: 15px;
+        } 
+        
+        .content>p{
+          font-size: 10px;
+        }
+        .btn-1{
+          padding: 5px 10px 5px 10px;
+          margin-top: -20px;
+          margin-bottom: 10px;
+          font-size: 10px;
+        }
+        .btn-2{
+          padding: 5px 10px 5px 10px;
+          font-size: 10px;
+        }
+
+        .bottom-div{
+          /* border: 1px solid black; */
+          height: 30%;
+          margin-top: 50px;
+        }
+        
+
+        .image-div img{
+          margin-left: -35px;
+        }
+        .i-text{
+          /* border: 1px solid green; */
+          margin-top: 70px;
+        }
+
+        /*  * rignth side */
+       
+        .right-div img{
+          margin-left: -50px;
+          
+        }
+        .review-div{
+     
+          height: 40px;
+          width: 100px;
+          left: 60vw;
+        }
+        .inner-review{
+         font-size: 10px;
+         padding-left:0px;
+         margin-top: 0%;
+        }
+        .symbol{
+          width: 80px;
+          left: 8px;
+        }
+        .inner-review p{
+          margin-top: 2px;
+          margin-left: 8px;
+        }
+        .symbol img{
+          left: 15vw;
+        }
+        .stat-div{
+
+          /* border: 1px solid red; */
+          width: 40vw;
+          left: 60vw;
+          margin-top: -100px;
+          display: block;
+          
+        }
+        .stat-div h2{
+          font-size: 14px;
+        }
+        .stat-div p{
+          font-size: 10px;
+        }
+}
+
+@media all and (min-width:411px) and (max-width:610px) {
+
+  .play-div{
+   height: 40px;
+   width: 40px;
+   left: 45vw;
+  }
+  .navbar-wrapper{
+   font-size: 7px;
+   margin-top: -10px;
+
+  }
+  .logo{
+   width: 20%;
+  }
+  .logo img{
+   width: 100%;
+   height: 100%;
+  }
+  .item-list{
+    justify-content: space-around;
+    width: 40%;
+  }
+  .middle-sign{
+    margin-left: 70px;
+    width: 20px;
+    height: 20px;
+  }
+  .middle-sign .inn-div div{
+   width: 20px;
+   height: 2px;
+  }
+  .top-div{
+   margin-top: 150px;
+   width: 79%;
+   height: 40%;
+
+  }
+
+   #take{
+     font-size: 18px;
+
+   }
+       #cowboy-text{
+         font-size: 15px;
+       } 
+       
+       .content>p{
+         font-size: 10px;
+       }
+       .btn-1{
+         padding: 5px 10px 5px 10px;
+         margin-top: -20px;
+         margin-bottom: 10px;
+         font-size: 10px;
+       }
+       .btn-2{
+         padding: 5px 10px 5px 10px;
+         font-size: 10px;
+       }
+
+       .bottom-div{
+         /* border: 1px solid black; */
+         height: 30%;
+         margin-top: 40px;
+       }
+       
+
+       .image-div img{
+         margin-left: -45px;
+       }
+       .i-text{
+         /* border: 1px solid green; */
+         margin-top: 100px;
+       }
+
+       /*  * rignth side */
+      
+       .right-div img{
+         margin-left: -74px;
+         
+       }
+       .review-div{
+    
+         height: 40px;
+         width: 100px;
+         left: 60vw;
+       }
+       .inner-review{
+        font-size: 10px;
+        padding-left:0px;
+        margin-top: 0%;
+       }
+       .symbol{
+         width: 80px;
+         left: 8px;
+       }
+       .inner-review p{
+         margin-top: 2px;
+         margin-left: 8px;
+       }
+       .symbol img{
+         left: 17vw;
+       }
+       .stat-div{
+
+         /* border: 1px solid red; */
+         width: 40vw;
+         left: 60vw;
+         margin-top: -100px;
+         display: block;
+         
+       }
+       .stat-div h2{
+         font-size: 14px;
+       }
+       .stat-div p{
+         font-size: 10px;
+       }
+}
